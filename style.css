@@ -1,0 +1,110 @@
+/* Reset CSS */
+.display-4 {
+  color: #fff;
+}
+.Lead {
+  color: #fff;
+}
+body {
+  background-image: url("img/2.jpg"); /* Ganti dengan nama gambar Anda */
+  background-size: cover; /* Untuk mengisi seluruh area background */
+  background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar */
+  background-attachment: fixed; /* Untuk gambar tetap pada tempatnya saat menggulir */
+}
+.rounded-circle {
+  border-radius: 50%;
+  width: 150px; /* Sesuaikan dengan ukuran gambar yang diinginkan */
+  height: 150px; /* Sesuaikan dengan ukuran gambar yang diinginkan */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e31818;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("header-background.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project img {
+  max-width: 50%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 80px 0;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+}
